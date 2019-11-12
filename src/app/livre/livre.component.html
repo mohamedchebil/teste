@@ -1,0 +1,6 @@
+<ul>
+     <li *ngFor="let livre of livres">
+         {{livre.titre}} {{livre.couverture}} {{livre.prix}} {{livre.dateEdition}}
+     </li>
+    <li> Donnez un % de promotion <input type="text" name="promo" {{calcul()}}/>
+</ul>
